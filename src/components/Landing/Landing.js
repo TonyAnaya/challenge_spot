@@ -10,7 +10,6 @@ function Landing() {
         setList([])
         event.preventDefault()
         setLoading(true)
-        console.log(event.target[0].value)
         let listBak = await listBusqueda(event.target[0].value)
         setList(listBak)
         setLoading(false)
@@ -55,7 +54,7 @@ function Landing() {
                 <tbody>
                     {
                         list.map(data =>(
-                        <tr key={data.cp}>
+                        <tr key={data.asentamiento}>
                             <td>{data.cp}</td>
                             <td>{data.asentamiento}</td>
                             <td>{data.tipo}</td>
