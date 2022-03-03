@@ -1,0 +1,16 @@
+.contenedor{
+    margin-top: 5%;
+    background-color: rgba(116, 116, 116, 0.6);
+    border-radius: 20px;
+}
+.titulo{
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+}
+.input{
+    align-items:center;
+}
+.table{
+    background-color: white;
+}

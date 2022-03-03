@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://www.teahub.io/photos/full/119-1198259_antique-map-of-paris-old-map.jpg");
+  background-size: cover;
 }
 
 code {
